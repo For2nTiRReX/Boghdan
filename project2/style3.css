@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+*{
+    margin: 0; padding: 0;
+}
+body {
+    background: #d6dbcb;
+    padding: 20px; 
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+img{
+    border: none;
+}
+.karkas {
+    min-width: 945px; max-width: 1300px; 
+    position: relative;
+    margin: 0 auto;
+}
+.clr {
+    clear: both;
+}
+.head{
+    background: url(images/header-bg.jpg) top left repeat-x;
+    height: 500px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    
+    margin: 60px 0 0 20px;
+    
+}
+
+.menu {
+    list-style: none; 
+    overflow: hidden;
+    float: left; 
+    position: relative;
+    margin: 50px 0 0 35%;
+}
+.menu li{
+    float: left;
+    margin: 0 10px;
+    font-size: 15px;
+    font-family:  'PT Sans Narrow', sans-serif;
+    color: #be1a2a ;
+}
+.menu li a{
+    color: #be1a2a ;
+}
+.menu li a:hover{
+    text-decoration: none;
+}
+
+.ico {
+    
+    float: right;
+    margin: 52px 25px 0 0;
+}
+.ico img{
+    margin-left: 10px;
+}
+
+.head-cont {
+    float: right;
+    text-align: right;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin:35px 25px 0 0;
+    
+}
+
+.head-phone {
+    font-size: 13px;
+    color: #38441b;
+    line-height: 1.3;
+}
+.head-phone span{
+    font-weight: bold;
+    font-size:  18px;
+    color: #be1a2a;
+}
+
+
+.head-adres {
+    font-size: 14px;
+    color: #38441b;
+    line-height: 1.3;
+}
+
+.head-link {
+   font-size: 12px;
+    color: #be1a2a;
+    line-height: 2;
+}
+.head-link:hover{
+    text-decoration: none;
+}
+
+.head-lider {
+    padding: 35px 0 0 55px;
+    position: relative;
+    background: url(images/akcia-bg.png) left no-repeat;
+    width:397px; 
+    height: 286px;
+    margin: 0 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    top: 105px;
+}
+.head-lider h2{
+    font-weight: bold;
+    font-size: 22px;
+    color: #be1a2a;
+}
+
+.lider-ico {
+    position: absolute;
+    top: -20;
+    left: 50;
+}
+
+.lider-rose {
+    padding: 5px 0 0 20;
+}
+
+.buk-l {
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.buk-r {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    background: url(images/content-bg.jpg) bottom repeat-x #fff  ;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+
+.content-left {
+    float: left;
+    width: 260px;
+    padding: 30px 20px 30px 20px;  
+}
+
+.content-left h3{
+    font-weight: normal;
+    font-size: 20px;
+    color: #38441b;
+    margin-bottom: 40px;
+}
+.left-news {
+   
+}
+.left-news span{
+    font-size: 12px;
+     color: #38441b;
+}
+
+.left-news p{
+    font-size: 15px;
+    color: #be1a2a;
+     margin-bottom: 30px;
+}
+.left-news p a{
+    font-size: 15px;
+    color: #be1a2a;
+}
+.left-news p a:hover{
+    text-decoration: none;
+}
+
+.content-right {
+    margin-left: 300px;
+    padding: 30px 20px 0 20px;
+}
+.content-right h1{
+    margin-bottom: 35px; 
+    color: #576437;
+    font-size: 24px;  
+}
+.content-right p{
+    text-align: justify;
+    color: #576437;
+    font-size: 15px; 
+     margin-bottom: 20px; 
+}
+.content-right a{
+    font-size: 15px; 
+    color: #be1a2a;
+}
+.content-right a:hover{
+    text-decoration: none;
+}
+.cont-img {
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+
+
+.all-news {
+    font-size: 15px;
+    color: #be1a2a;
+    display: block;
+    text-align: center;
+    width: 130px;
+    margin: -10 65 auto;
+}
+.all-news:hover {
+    text-decoration: none;
+}
+
+.l-cont-img {
+    display: block;
+    margin: 20px auto 0 auto;
+    
+}
+
+.foter {
+    background: #fff; 
+    overflow: hidden;
+}
+
+.logo-futer {
+    float: left;
+    margin-left: 110px;
+    padding: 10px 0;
+}
+.foter p{
+    font-size: 15px; 
+    color: #be1a2a;
+    float: left;
+    margin: 25px 0 0 185px;
+
+}
+.foter p a{
+    margin: 0 7px;
+    font-size: 15px; 
+    color: #be1a2a;
+
+}
+.foter a:hover{
+    text-decoration: none;
+}
+.foter ul{
+    list-style: none;
+    margin: 13px 20px 0 0; 
+}
+.foter ul li{
+    float: right;
+    margin-right: 10px;
+}

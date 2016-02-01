@@ -1,0 +1,286 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+* {
+    padding: 0; margin: 0
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: #eee;
+}
+
+.header-main {
+    background: url(images/head-bg-main.jpg);  
+    left: 0; 
+    top: 0; 
+    background-repeat: repeat-x;
+ 
+}
+
+.header {
+    background: url(images/head-bg-road.jpg); 
+    background-repeat: no-repeat;
+    height: 181px;
+    left: 0; 
+    top: 0; 
+    position: relative;
+}
+
+.karkas {
+    min-width: 970px; 
+    max-width: 1280px; 
+    margin: 0 auto;
+}
+
+.ico {
+    list-style: none;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.ico li {
+    margin-bottom: 20px;
+}
+
+
+.head-form {
+    background: #eee; 
+    overflow: hidden;
+    padding: 10px 0 10px 30px;
+    width: 290px;
+    border-radius: 0 0 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    
+}
+.head-form input {
+    float: left;
+}
+
+.searh-form {
+    background: #fff; 
+    border: 1px solid #a5acb2; 
+    margin-right: 10px;
+    width: 120px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    margin-top: 90px;
+    border-bottom: 3px solid #93b0c8;
+    padding-bottom: 3px;
+    padding-right: 70px;
+    
+}
+.menu li{
+    float: left;
+    font: bold 15px "Trebuchet Ms";
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #ebf0f5;
+    line-height: 1;
+}
+.menu li:first-child{
+    float: left;
+    font: bold 15px "Trebuchet Ms";
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: none;
+   
+}
+.menu li a{
+    color: #ebf0f5;
+    text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    
+}
+.content-main {
+    width: 100%;
+    background: url(images/fon.png) top right no-repeat;
+}
+
+.content-under {
+    background:#fff url(images/fon-chield.png) top repeat-x;
+    
+}
+
+.logo {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.content p{
+    font-size: 12px;
+    color: #313131;
+    margin-top: 20px;
+    text-align: justify;
+}
+.content h1 {
+    font: normal 24px "Trebuchet MS";
+    color:1c56a0;
+    margin-bottom: 10px;
+
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 30px; 
+    vertical-align: top;
+}
+
+.print {
+    font: 10px "Trebuchet MS";  
+    text-align: right!important;
+}
+.print a {
+    color:1c56a0; 
+}
+.print a:hover {
+    text-decoration: none;
+}
+.print img {
+    position: relative; top: 4px;
+    margin-left: 10px;
+}
+
+.right-bar {
+  vertical-align: top;
+    width: 480px;
+    padding-top: 20px;
+    padding-right: 30px;
+   }
+
+.prodykt-main {
+   overflow: hidden;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.prodykt-main img{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.prodykt-main h1{
+    font-size: 12px;
+    font-weight: bold; 
+    color: #1c56a0;
+}
+.prodykt-main a{
+   color: #1c56a0;
+}
+.prodykt-main a:hover{
+    text-decoration: none;
+}
+.prodykt-main p{
+    font-size: 10px;
+    margin-left: 191px;
+    line-height: 1.1;
+}
+
+.zag {
+    background: url(images/fon-prod.png) left top no-repeat; 
+    margin-top: -71px;
+    margin-bottom: 20px;
+    z-index: 100;
+    position: relative;
+    padding: 20px 0 10px 20px;
+    font: 18px 'Trebuchet MS';
+    text-decoration: underline;
+    color: #1c56a0;
+}
+
+.all-pr {
+    font-size: 10px;
+    text-align: right;
+    color: #1c56a0;
+    font-weight: bold;
+    border-top: 1px solid #1c56a0;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.all-pr a{
+   color: #1c56a0; 
+}
+.all-pr a:hover{
+    text-decoration: none;
+}
+
+
+.contact {
+   text-align: right;
+     margin-top: 30px;
+    margin-right: 30px;
+    position: relative;
+    padding-bottom: 230px;
+    
+}
+.contact h3{
+    
+    font: bold 12px 'Trebuchet MS';
+    color: #1c56a0; 
+}
+.contact p{
+    font: 11px 'Taxoma';
+    margin-top: 10px;
+    line-height: 1.2;
+}
+.contact p span{
+   font: 12px;
+    font-weight: bold;
+     color: #1c56a0; 
+}
+
+.toper {
+    position: absolute;
+    bottom: 5px;
+    right: -20px;
+}
+
+.coppy {
+   float: left;
+    font: 10px;
+    color: #6d6e71;
+    text-align: right;   
+    margin: 35px 0 0 27%;
+
+}
+.coppy a{
+  color: #1c56a0;  
+}
+.coppy a:hover{
+    text-decoration: none;
+    
+}
+
+
+.footer {
+    overflow: hidden;
+    background: #eee;
+}
+
+.atstar {
+    float: left;
+    margin: 35px 0 30px 20px; 
+}
+
+
+
+
+.reklama {
+    float: right;
+    margin: 20px 80px 10px 0px; 
+}
+.reklama img{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.right-bot {
+     background: url(images/fon-kont-r.png) right bottom no-repeat;
+    vertical-align: bottom;
+    padding-right: 30px;
+
+}
