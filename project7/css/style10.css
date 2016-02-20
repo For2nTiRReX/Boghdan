@@ -53,10 +53,12 @@ p {
 .menu-h {
     display: block;
     margin-top: 8px;
+    text-align: center;
 }
 .menu-h li {
-    float: left;
+    display: inline-block;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 .h-panel {
     position: relative;
@@ -599,6 +601,8 @@ div[class*="cole-img"] a:after{
     padding-top: 50px;
 }
 
+
+
 .cont-6-r1 a {
     display: block;
     margin-bottom: 30px;
@@ -611,7 +615,7 @@ div[class*="cole-img"] a:after{
     height: 100%;
 }
 .cont6 ul li {
-    float: left;
+    display: inline-block;
     margin: 0 4.2%;
 }
 .cont6 ul li a {

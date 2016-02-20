@@ -20,10 +20,7 @@
         float: right!important;
         margin-right: 30px;
     }
-    .menu-h {
-       float: right;
-        margin-right: 15%;
-    }
+    
     .top_links {
         display: none;
         position: absolute;
@@ -96,8 +93,12 @@
     .head-ramk {
         margin-top: 180px;
     }
+    .menu-h {
+        margin: 0 auto;
+        display: block;
+    }
     .menu-h li {
-        float: none!important;
+        display: block;
         line-height: 1.7em;
     }
     .cole-text {
